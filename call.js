@@ -32,9 +32,9 @@ app.get('/users', (req, res) => {
 });
 
 
-app.get("/", (req, res) => { 
-    res.sendFile(__dirname + "/public/curriculosemana6.html");
-});
+// app.get("/", (req, res) => { 
+//     // res.sendFile(__dirname + "/public/curriculosemana6.html");
+// });
 
 app.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`);
