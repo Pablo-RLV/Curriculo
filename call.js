@@ -10,7 +10,7 @@ const DBPATH = './backend/curriculosemana6.db';
 const bodyParser = require('body-parser');
 const urlencodedParser = bodyParser.urlencoded({ extended: false })
 
-app.use(express.static("public"));
+app.use(express.static("Public"));
 
 app.use(express.json());
 
