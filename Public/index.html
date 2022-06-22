@@ -2,7 +2,6 @@
 <html>
 <link rel="stylesheet" href="curriculosemana6.css">
 <meta charset="UTF-8">
-<script src="curriculosemana6.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 
 </head>
 <body> 
@@ -20,7 +19,7 @@
             </center>
         </div>
         <script>
-            $("#btn").on("click",botao)
+            $("#btn").on("click","botao()")
         </script>
         <h3>Experiência profissional</h3>
         <ul class="experiencias">
@@ -58,6 +57,22 @@
         <center><a href = "https://www.linkedin.com/in/pablo-ruan-lana-viana-b0818b1a6/"><img src="Linkedin.png" width = "50px"></a></center>
         </p>
         <center><p id="egg"></p></center>
+
+
+        <div id="rodape" style="text-align: center;">
+            <h3>Acessos</h3>
+            <table class="tabelinha" id="tabela">
+                <tr>
+                </tr>
+            </table>
+            <p>Última atualização - 10/06/2022</p>
+        </div>
+        <form>
+            <input id="input1" name="name" placeholder="Insira seu nome"><input id="input2" name="date" placeholder="Data de acesso (diames)">
+            <button name="postar" value="Vai" type="submit" onclick="enviaAcesso();" >ADICIONAR MEU ACESSO</button>
+        </form>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="curriculosemana6.js"></script>
                     </div>         
                 </div>     
             </div>
